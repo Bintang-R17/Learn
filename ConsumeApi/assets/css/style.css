@@ -1,0 +1,23 @@
+body {
+  padding-top: 70px;
+}
+
+header {
+  background: linear-gradient(135deg, #1679ab, #46b5d1);
+  color: white;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.movie-card {
+  transition: transform 0.2s;
+}
+
+.movie-card:hover {
+  transform: scale(1.03);
+}
+
+.movie-poster {
+  height: 400px;
+  object-fit: cover;
+}
